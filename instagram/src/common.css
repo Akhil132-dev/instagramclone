@@ -1,0 +1,31 @@
+Button {
+  margin: 10px !important;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+input {
+  padding: 10px;
+  width: 100%;
+}
+progress {
+  width: 100%;
+  color: green;
+}
+.takephoto {
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 650px) {
+  .image {
+    align-items: center;
+  }
+  input {
+    width: 50%;
+    outline: none;
+  }
+  progress {
+    width: 60%;
+  }
+}

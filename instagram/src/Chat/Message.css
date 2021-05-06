@@ -1,0 +1,50 @@
+.chat_chat {
+  padding: 10px;
+  margin: 10px;
+  width: fit-content;
+}
+.image1 {
+  height: 120px;
+  object-fit: contain;
+}
+.chat__form {
+  padding: 20px;
+  position: fixed;
+  bottom: 20px;
+  z-index: 1;
+  background-color: #e9e9eb;
+  width: 100%;
+}
+.chats {
+  overflow: scroll;
+  height: 75vh;
+}
+.input {
+  display: flex;
+  flex-direction: row !important;
+  width: 100%;
+}
+.my_input {
+  flex: 0.9 !important;
+  display: flex;
+}
+.close {
+  margin-top: 10px;
+  background-color: #e9e9eb;
+  padding: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.chat__iconBuuton {
+  flex: 0;
+}
+.main_mesg {
+  flex: 1;
+}
+@media only screen and (max-width: 720px) {
+  .my_input {
+    flex: 0.8 !important;
+
+    border: 1px solid lightgray;
+  }
+}

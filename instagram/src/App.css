@@ -1,0 +1,42 @@
+.app__header {
+  object-fit: contain;
+  background-color: #ffff;
+  padding: 10px;
+}
+.header {
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__input {
+  outline: none;
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+.app__header_img {
+  width: 100px;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.message_icon {
+  height: 25px;
+}
+.header__icon {
+  display: flex;
+  align-items: center;
+}
+.Icon {
+  margin-right: 0.8rem;
+}
+.imageupload {
+  position: sticky;
+  bottom: 0;
+  z-index: 100;
+  background-color: #ffff;
+}

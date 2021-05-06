@@ -1,0 +1,63 @@
+.app__header {
+  object-fit: contain;
+  background-color: #ffff;
+  padding: 10px;
+}
+.header {
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #ffff;
+}
+Button {
+  margin-left: 10px !important;
+}
+.header__input {
+  outline: none;
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+.app__header_img {
+  width: 100px;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.message_icon {
+  height: 25px;
+}
+.header__icon {
+  display: flex;
+  align-items: center;
+}
+.Icon {
+  margin-right: 0.8rem;
+}
+
+/* modele css */
+.sine_up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 620px) {
+  .header__input {
+    display: none;
+  }
+  .app__header_img {
+    display: none;
+  }
+}

@@ -1,0 +1,23 @@
+.chat_chat {
+  color: #fff;
+  padding: 5px;
+  width: fit-content;
+
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 20px !important;
+}
+.message__user {
+  margin-left: auto;
+  color: #fff;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: fit-content;
+  text-align: left !important;
+}
+.message__user_card {
+  background-color: #0b81ff !important;
+}
+.other_user {
+  background-color: #e9e9eb !important;
+}
